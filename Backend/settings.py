@@ -148,4 +148,6 @@ CROSS_ORIGIN_WHITELIST=(
     'http://localhost:3000',
     'https://mizan1235.github.io',
 )
+CSRF_TRUSTED_ORIGINS = ['http://localhost:3000',
+    'https://mizan1235.github.io',]
 
